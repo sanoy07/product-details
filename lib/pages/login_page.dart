@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
                     borderRadius: BorderRadius.circular(100), // Adjust the radius as needed
                     child: Icon(
                       Icons.lock,
-                      color: Colors.cyan[900],
+                      color: Colors.cyan[900], //Todo Add elevation and shadow for lifted effect(skuemorphism)
                       size: 175,
                       ),
                   ),
